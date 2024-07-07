@@ -29,7 +29,8 @@ disqusShortname = 'smyrgeorge'   # use disqus comments
 
   # misc
   disableHLJS = false                             # disable highlight.js
-  monoDarkIcon = false                            # show monochrome dark mode icon
+  disablePostNavigation = false              # disable post navigation
+  monoDarkIcon = false                           # show monochrome dark mode icon
   gravatarCdn = 'https://cdn.v2ex.com/gravatar/'  # e.g. 'https://cdn.v2ex.com/gravatar/'
   # graphCommentId = "YOUR_GRAPH_COMMENT_ID"        # use graph comment (disqus alternative)
   math = true
