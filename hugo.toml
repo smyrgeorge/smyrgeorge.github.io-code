@@ -1,11 +1,7 @@
-baseURL = "https://smyrgeorge.github.io/"
-
-# Change the default theme to be use when building the site with Hugo
-theme = "paper"
-
-# website title
 title = ":: exploration and stuff ::"
 languageCode = 'en-us'
+baseURL = "https://smyrgeorge.github.io/"
+theme = "paper"
 
 disqusShortname = 'smyrgeorge'   # use disqus comments
 
@@ -17,9 +13,9 @@ disqusShortname = 'smyrgeorge'   # use disqus comments
   # twitter = 'YOUR_TWITTER_ID'           # twitter.com/YOUR_TWITTER_ID
   github = 'smyrgeorge'                   # github.com/YOUR_GITHUB_ID
   instagram = 'smyrgeorge'                # instagram.com/YOUR_INSTAGRAM_ID
-  linkedin = 'smyrgeorge'             # linkedin.com/in/YOUR_LINKEDIN_ID
+  linkedin = 'smyrgeorge'                 # linkedin.com/in/YOUR_LINKEDIN_ID
   # mastodon = 'YOUR_MASTODON_LINK'       # e.g. 'https://mastodon.instance/@xxx'
-  # threads = '@YOUR_THREADS_ID'              # threads.net/@YOUR_THREADS_ID
+  # threads = '@YOUR_THREADS_ID'          # threads.net/@YOUR_THREADS_ID
   rss = true                              # show rss icon
 
   # home page profile
@@ -29,8 +25,8 @@ disqusShortname = 'smyrgeorge'   # use disqus comments
 
   # misc
   disableHLJS = false                             # disable highlight.js
-  disablePostNavigation = false              # disable post navigation
-  monoDarkIcon = false                           # show monochrome dark mode icon
+  disablePostNavigation = true                    # disable post navigation
+  monoDarkIcon = false                            # show monochrome dark mode icon
   gravatarCdn = 'https://cdn.v2ex.com/gravatar/'  # e.g. 'https://cdn.v2ex.com/gravatar/'
-  # graphCommentId = "YOUR_GRAPH_COMMENT_ID"        # use graph comment (disqus alternative)
+  # graphCommentId = "YOUR_GRAPH_COMMENT_ID"       # use graph comment (disqus alternative)
   math = true
