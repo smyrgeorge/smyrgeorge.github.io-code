@@ -15,6 +15,11 @@ tags:
 - mysql
 - sqlite
 title: Sqlx4k - Introduction to the Kotlin native and FFI (Part 1)
+cover:
+    image: "/images/7a68c51ab98060e8e5b4cbdbae694e450abfb270.png"
+    alt: ""
+    caption: ""
+    relative: false
 ---
 
 ## Introduction

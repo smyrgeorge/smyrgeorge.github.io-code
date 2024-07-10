@@ -54,14 +54,14 @@ params:
     # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
+    text: ":: exploration and stuff ::"
     icon: /apple-touch-icon.png
     iconHeight: 35
 
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to my blog | Under construction..
 
   socialIcons:
     - name: stackoverflow
@@ -80,9 +80,9 @@ params:
       #SiteVerificationTag: "XYZabc"
 
   cover:
-    hidden: true # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   editPost:
     URL: "https://github.com/smyrgeorge/smyrgeorge.github.io-code/blob/main/content"
