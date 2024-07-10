@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Build site.
-hugo
+hugo -v
 # Delete old files
 rm -rf ../smyrgeorge.github.io/*
 # Copy artifacts.
