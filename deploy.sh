@@ -1,5 +1,6 @@
 #!/bin/sh
-
+# Delete old build
+rm -rf public
 # Build site.
 hugo -v
 # Delete old files
