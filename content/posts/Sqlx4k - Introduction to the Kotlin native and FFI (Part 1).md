@@ -21,7 +21,7 @@ title: Sqlx4k - Introduction to the Kotlin native and FFI (Part 1)
 
 ## Introduction
 
-Recently, I began experimenting with the **Kotlin Native platform**. I initiated a new repository and attempted to create a simple project utilizing the **ktor** libraries. The purpose of the project was to recreate a small service that integrates some basic libraries and compile it to a native target (macosArm64 in my case). The service aimed to offer support for:
+Recently, I began experimenting with the `Kotlin Native platform`. I initiated a new repository and attempted to create a simple project utilizing the **ktor** libraries. The purpose of the project was to recreate a small service that integrates some basic libraries and compile it to a native target (macosArm64 in my case). The service aimed to offer support for:
 
 - Dependency injection
 - HTTP server
@@ -38,7 +38,7 @@ Ktor, developed by JetBrains, is a Kotlin-based framework optimized for asynchro
 
 I began with the [Ktor: Project Generator](https://start.ktor.io/settings) and created a sample project.
 
-Then, I only had to make a few changes to the **build.gradle.kts** file:
+Then, I only had to make a few changes to the `build.gradle.kts` file:
 
 ``` kotlin
 plugins {
@@ -109,7 +109,7 @@ And I then I saw the following logs:
 [INFO] (io.ktor.server.Application): Responding at http://0.0.0.0:8080
 ```
 
-As we can observe, the startup time was less than a second (a few milliseconds, I guess), which I find to be the interesting part. Additionally, I must mention that the memory usage was around **\~5MB**.
+As we can observe, the startup time was less than a second (a few milliseconds, I guess), which I find to be the interesting part. Additionally, I must mention that the memory usage was around `~5MB`.
 
 ## A little bit of the background.
 
@@ -131,7 +131,12 @@ I also forgot to mention that in several side projects over the past few years, 
 
 So, I ended up creating **sqlx4k** (perhaps not the best name, but I wanted to convey that it's a wrapper around the **sqlx** library). Sqlx4k is a minimal (and I believe it should remain minimal in the future) non-blocking database driver. Currently, it only supports PostgreSQL, but I plan to extend support to MySQL and eventually SQLite databases. By "minimal," I mean it's essentially a convenient wrapper around the Rust library, providing an idiomatic Kotlin API for database access.
 
-![sqlx4k](/images/7a68c51ab98060e8e5b4cbdbae694e450abfb270.png)
+<figure>
+<img
+src="../Sqlx4k%20-%20Introduction%20to%20the%20Kotlin%20native%20and%20FFI%20(Part%201)/7a68c51ab98060e8e5b4cbdbae694e450abfb270.png"
+title="wikilink" alt="sqlx4k.excalidraw.png" />
+<figcaption aria-hidden="true">sqlx4k.excalidraw.png</figcaption>
+</figure>
 
 As part of this article, I wanted to offer an introduction. In subsequent parts of this series, I will briefly describe how I managed to bridge the two different "worlds."
 

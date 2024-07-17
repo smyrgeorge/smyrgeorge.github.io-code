@@ -179,8 +179,8 @@ In the previous example, we saw that we can pass a callback to the foreign code.
 
 Kotlin offers the [`suspendCoroutine`](https://kotlinlang.org/api/core/kotlin-stdlib/kotlin.coroutines/suspend-coroutine.html) function.
 
-\*According to the documentation:
-Obtains the current continuation instance inside suspend functions and suspends the currently running coroutine. `Continuation`: Interface representing a continuation after a suspension point that returns a value of type T.
+*According to the documentation:
+Obtains the current continuation instance inside suspend functions and suspends the currently running coroutine. `Continuation`: Interface representing a continuation after a suspension point that returns a value of type T.*
 
 In other words, it is a way to `suspend` the execution flow, and the [`Continuation`]() instance can provide us the way to continue the flow (in our case, after the data from the database are fetched).
 
@@ -230,8 +230,13 @@ While I was developing the `sqlx4k` library, I created the following rule:
 
 > **Each one of the "worlds" (language) needs to manage its own memory.**
 
-![sqlx4k](/images/16b3c7cfabbce3d7e297a63c597f29abb7049f3c.png)
-
+<figure>
+<img
+src="../Sqlx4k%20-%20Introduction%20to%20the%20Kotlin%20native%20and%20FFI%20(Part%202)/16b3c7cfabbce3d7e297a63c597f29abb7049f3c.png"
+title="wikilink" alt="sqlx4k-free-memory.excalidraw.png" />
+<figcaption
+aria-hidden="true">sqlx4k-free-memory.excalidraw.png</figcaption>
+</figure>
 
 This simply means that each language should deallocate the memory it allocated. In other words, we need to provide some more functions that will do this job for us. For instance, in my case, I created the following function that frees the allocated memory:
 
