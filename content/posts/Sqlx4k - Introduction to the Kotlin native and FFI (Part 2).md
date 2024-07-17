@@ -230,13 +230,7 @@ While I was developing the `sqlx4k` library, I created the following rule:
 
 > **Each one of the "worlds" (language) needs to manage its own memory.**
 
-<figure>
-<img
-src="../Sqlx4k%20-%20Introduction%20to%20the%20Kotlin%20native%20and%20FFI%20(Part%202)/16b3c7cfabbce3d7e297a63c597f29abb7049f3c.png"
-title="wikilink" alt="sqlx4k-free-memory.excalidraw.png" />
-<figcaption
-aria-hidden="true">sqlx4k-free-memory.excalidraw.png</figcaption>
-</figure>
+![sqlx4k](/images/7a68c51ab98060e8e5b4cbdbae694e450abfb270.png)
 
 This simply means that each language should deallocate the memory it allocated. In other words, we need to provide some more functions that will do this job for us. For instance, in my case, I created the following function that frees the allocated memory:
 

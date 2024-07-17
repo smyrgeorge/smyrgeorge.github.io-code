@@ -131,12 +131,7 @@ I also forgot to mention that in several side projects over the past few years, 
 
 So, I ended up creating **sqlx4k** (perhaps not the best name, but I wanted to convey that it's a wrapper around the **sqlx** library). Sqlx4k is a minimal (and I believe it should remain minimal in the future) non-blocking database driver. Currently, it only supports PostgreSQL, but I plan to extend support to MySQL and eventually SQLite databases. By "minimal," I mean it's essentially a convenient wrapper around the Rust library, providing an idiomatic Kotlin API for database access.
 
-<figure>
-<img
-src="../Sqlx4k%20-%20Introduction%20to%20the%20Kotlin%20native%20and%20FFI%20(Part%201)/7a68c51ab98060e8e5b4cbdbae694e450abfb270.png"
-title="wikilink" alt="sqlx4k.excalidraw.png" />
-<figcaption aria-hidden="true">sqlx4k.excalidraw.png</figcaption>
-</figure>
+![sqlx4k](/images/7a68c51ab98060e8e5b4cbdbae694e450abfb270.png)
 
 As part of this article, I wanted to offer an introduction. In subsequent parts of this series, I will briefly describe how I managed to bridge the two different "worlds."
 
