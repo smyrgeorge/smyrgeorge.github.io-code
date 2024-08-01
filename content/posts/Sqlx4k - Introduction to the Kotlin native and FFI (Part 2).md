@@ -230,7 +230,7 @@ While I was developing the `sqlx4k` library, I created the following rule:
 
 > **Each one of the "worlds" (language) needs to manage its own memory.**
 
-![sqlx4k](/images/7a68c51ab98060e8e5b4cbdbae694e450abfb270.png)
+![sqlx4k](/images/16b3c7cfabbce3d7e297a63c597f29abb7049f3c.png)
 
 This simply means that each language should deallocate the memory it allocated. In other words, we need to provide some more functions that will do this job for us. For instance, in my case, I created the following function that frees the allocated memory:
 

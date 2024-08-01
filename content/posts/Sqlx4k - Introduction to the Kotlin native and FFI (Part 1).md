@@ -21,7 +21,7 @@ title: Sqlx4k - Introduction to the Kotlin native and FFI (Part 1)
 
 ## Introduction
 
-Recently, I began experimenting with the `Kotlin Native platform`. I initiated a new repository and attempted to create a simple project utilizing the **ktor** libraries. The purpose of the project was to recreate a small service that integrates some basic libraries and compile it to a native target (macosArm64 in my case). The service aimed to offer support for:
+Recently, I began experimenting with the `Kotlin Native platform`. I initiated a new repository and attempted to create a simple project utilizing the `ktor` libraries. The purpose of the project was to recreate a small service that integrates some basic libraries and compile it to a native target (macosArm64 in my case). The service aimed to offer support for:
 
 - Dependency injection
 - HTTP server
