@@ -12,7 +12,7 @@ tags:
 - kotlin
 - ffi
 - rust
-title: Sqlx4k - Interoperability between Kotlin and Rust (using FFI)
+title: Sqlx4k - Interoperability between Kotlin and Rust, using FFI (Part 1)
 ---
 
 ## Introduction
