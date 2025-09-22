@@ -1,4 +1,7 @@
 #!/bin/sh
+
+set -e
+
 # Delete old build
 rm -rf public
 # Build site.

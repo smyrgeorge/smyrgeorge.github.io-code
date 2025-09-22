@@ -1,6 +1,6 @@
 baseURL: "https://smyrgeorge.github.io/"
 title: ":: exploration and stuff ::"
-paginate: 5
+# paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
