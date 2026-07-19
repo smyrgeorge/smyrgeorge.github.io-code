@@ -1,7 +1,32 @@
+/* Widen the content column by ~5% (theme default is 720px). */
+:root {
+  --main-width: 800px;
+}
+
 .toc details summary {
   cursor: pointer;
 }
 
 .toc details[open] summary {
   cursor: pointer;
+}
+
+/* --- Post listing: front-matter `description` shown as a subtitle above the excerpt --- */
+.entry-description {
+  margin: 10px 0 2px;
+  font-size: 17px;
+  font-style: italic;
+  line-height: 1.5;
+  color: var(--primary);
+  opacity: 0.92;
+}
+
+.first-entry .entry-description {
+  font-size: 20px;
+}
+
+/* Show more of the body excerpt in listings (theme default clamps to 2 lines). */
+.entry-content,
+.first-entry .entry-content {
+  -webkit-line-clamp: 4;
 }

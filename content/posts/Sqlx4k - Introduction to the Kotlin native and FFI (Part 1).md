@@ -6,7 +6,7 @@ categories:
 cover:
   image: /images/7a68c51ab98060e8e5b4cbdbae694e450abfb270.png
 date: "2024-07-08T13:26:07+02:00"
-subtitle: A small series of articles about the Kotlin FFI.
+description: A small series of articles about the Kotlin FFI.
 tags:
 - dev
 - kotlin

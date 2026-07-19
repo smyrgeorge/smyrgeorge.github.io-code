@@ -6,7 +6,7 @@ categories:
 cover:
   image: /images/bfc5f1d0b3838151728b268ebedb1f89b234eea8.png
 date: "2024-08-01T17:19:17+02:00"
-subtitle: A short series on Kotlin and Rust FFI.
+description: A short series on Kotlin and Rust FFI.
 tags:
 - dev
 - kotlin
